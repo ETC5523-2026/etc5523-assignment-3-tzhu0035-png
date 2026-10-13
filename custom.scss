@@ -1,0 +1,70 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap');
+
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, serif;
+$font-size-root:         17px;
+$line-height-base:       1.7;
+
+// Colours
+$ink:      #1F2A37;   // body text
+$navy:     #0B3954;   // headings and navbar
+$accent:   #006DAE;   // links, matches the blog figure
+$paper:    #FBFAF7;   // warm off-white background
+$rule:     #E3E0D8;
+
+$body-bg:          $paper;
+$body-color:       $ink;
+$link-color:       $accent;
+$headings-color:   $navy;
+$navbar-bg:        $navy;
+$navbar-fg:        #F4F1EA;
+$navbar-hl:        #FFFFFF;
+$footer-bg:        $paper;
+$code-color:       #8A2D0A;
+
+/*-- scss:rules --*/
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid $rule;
+}
+
+.quarto-title-banner {
+  background: $navy;
+  color: #F4F1EA;
+}
+
+.quarto-title-banner .quarto-title .title {
+  color: #FFFFFF;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: darken($accent, 12%);
+}
+
+.listing-title {
+  font-family: $headings-font-family;
+  color: $navy;
+}
+
+.callout {
+  background-color: #FFFFFF;
+}
+
+figcaption, .table-caption, caption {
+  color: #4A5563;
+  font-size: 0.92rem;
+}
