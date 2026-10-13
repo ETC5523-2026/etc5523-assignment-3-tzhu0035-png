@@ -1,17 +1,29 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "blog-template"
+  title: "Tiansi Zhu | Data Stories"
+  description: "Plain-language data stories about public health, statistics and policy."
+  site-url: https://etc5523-2026.github.io/etc5523-assignment-3-tzhu0035-png/
   navbar:
+    left:
+      - href: index.qmd
+        text: Blog
+      - href: about.qmd
+        text: About
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/tzhu0035-png
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Tiansi Zhu · Built with [Quarto](https://quarto.org)"
+
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, custom.scss]
     css: styles.css
-
-
-
+    toc: true
+    html-math-method: plain
+    toc-title: "On this page"

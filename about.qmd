@@ -1,13 +1,29 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Tiansi Zhu"
+image: profile.png
+toc: false
 about:
   template: jolla
+  image-shape: round
+  image-width: 14em
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href: https://github.com/tzhu0035-png
+    - icon: envelope
+      text: Email
+      href: mailto:tzhu0035@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi, I'm Tiansi. I'm a postgraduate student at Monash University, where I study how to analyse data and, just as importantly, how to explain what it means to people who did not do the analysis.
+
+I'm especially interested in public health and policy questions, where good evidence only helps if decision-makers and the public can understand it. On this blog I take research findings and rewrite them as short, plain-language stories with clear charts and tables.
+
+## Education
+
+**Monash University**, Melbourne  
+Postgraduate study · Department of Econometrics and Business Statistics
+
+## Skills
+
+R · tidyverse · ggplot2 · Quarto · data visualisation · statistical communication
